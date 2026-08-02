@@ -1,5 +1,9 @@
 command /daily:
 # you can also add "aliases: text, text" before the trigger: line to add other commands that run this command, while using , to seperate each cmd based on how many you want.
+  cooldown: 24 hours
+  cooldown message: "&cYou're still on coooldown! %remaining time% left until you can claim it again."
   trigger:
     give player diamond 1
     # you can give more than that, just add it in another line haha
+
+# also reminder: if you do /sk reload on this script it WILL reset the cooldown, just a FYI
