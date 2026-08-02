@@ -1,0 +1,5 @@
+command /daily:
+# you can also add "aliases: text, text" before the trigger: line to add other commands that run this command, while using , to seperate each cmd based on how many you want.
+  trigger:
+    give player diamond 1
+    # you can give more than that, just add it in another line haha
