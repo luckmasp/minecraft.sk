@@ -1,0 +1,4 @@
+# this is a link to your server's discord if you have one, you can also change the command to something else and the <link:> part to another link if you have a website or etc.
+command /discord:
+  trigger:
+    send "<link:REPLACE-WITH-YOUR-LINK>&b Join our Discord by clicking this message!<reset>" to player
