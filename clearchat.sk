@@ -1,0 +1,10 @@
+command /clearchat:
+  aliases: cc, chatclear
+  permission: op # i have it set to op meaning if you aren't on the oplist (/op) then you cannot run it. change it if you use luckperms or want other people to use it.
+  permission message: &cYou can't do that!
+  trigger:
+    loop 500 times:
+      broadcast " "
+      broadcast " "
+      broadcast " "
+    broadcast "&e%player% cleared chat." # btw you can always remove this line if you don't want it announcing who directly cleared it.
