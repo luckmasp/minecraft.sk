@@ -1,0 +1,11 @@
+# did you know you can change the default join and quit message using skript??? how cool!!!
+on join:
+  set join message to "&a%player% Joined"
+on quit:
+  set quit message to "&c%player% Left"
+
+  # you can ALSO add a "new" join message and add rewards to new joiners on their first join:
+
+on first join:
+  set join message to "&aWelcome %player%!"
+  give %player% diamond 1 # this isn't needed or anything, just a tip that you can add stuff like rewards to new joiners.
