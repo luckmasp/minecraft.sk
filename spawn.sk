@@ -1,0 +1,10 @@
+command /spawn:
+  trigger:
+    teleport player to {spawn}
+
+command /setspawn:
+  permission: op
+  permission message: &cYou can't do that!
+  trigger:
+    set {spawn} to location of player
+    send "&fSpawn set."
